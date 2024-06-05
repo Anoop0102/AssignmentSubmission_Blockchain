@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Upload Your Assignemnt</h1>
+    <form id="assignmentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="usn">USN:</label>
+        <input type="text" id="usn" name="usn" required>
+        <br>
+        <label for="question1">Question 1:</label>
+        <textarea id="question1" name="question1" required></textarea>
+        <br>
+        <label for="question2">Question 2:</label>
+        <textarea id="question2" name="question2" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="resumeDetails"></div> <!-- This is where the details will be displayed -->
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
